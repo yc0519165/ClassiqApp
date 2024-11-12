@@ -19,7 +19,7 @@ export const Header = () => {
               onClick={() => navigate("/course")}
               className="text-[#3E3E3E] ml-9 text-lg hover:text-black transition-colors ease-linear cursor-pointer"
             >
-              Cources
+              Courses
             </p>
           </div>
         </div>

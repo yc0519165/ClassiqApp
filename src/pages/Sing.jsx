@@ -59,7 +59,7 @@ export const Sing = () => {
             <span className="text-center text-sm pt-5">
               Already have an account?
               <a
-                onClick={() => navigate("/singup")}
+                onClick={() => navigate("/login")}
                 className="cursor-pointer underline"
               >
                 Login

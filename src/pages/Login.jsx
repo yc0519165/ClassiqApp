@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
 export const Login = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-20 bg-[#F5F5F5] font-poppins selection:bg-[#C2F578] selection:text-black">
@@ -34,7 +36,11 @@ export const Login = () => {
             </form>
             <span className="text-center text-sm pt-5">
               Don’t have an account?
-              <a href="" className="underline">
+              <a
+                onClick={() => navigate("/singup")}
+                href=""
+                className="underline"
+              >
                 Sing Up
               </a>
             </span>

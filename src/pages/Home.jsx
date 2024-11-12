@@ -128,6 +128,7 @@ export const Home = () => {
                 </div>
               </div>
               <div className="mt-8 font-semibold text-[#3E3E3E] flex items-center gap-x-2 bg-[#C2F578] px-5 rounded-lg w-max hover:bg-[#a5d064] transition-colors ease-linear py-2.5 cursor-pointer">
+                <img src={assets.side_arrow} alt="" />
                 Join Now
               </div>
             </div>
